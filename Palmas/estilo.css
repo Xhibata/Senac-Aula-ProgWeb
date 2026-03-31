@@ -1,6 +1,8 @@
 body {
     background: url(imagens/dried-leaves-gray-blank-background.jpg);
     font-family: sans-serif, monospace;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 h1 {
     color: white;
@@ -12,4 +14,27 @@ p {
     color: white;
     text-align: center;
     font-size: 20px;
+}
+img {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1090px;
+}
+.lugares {
+    float: left;
+    width: 540px;
+    border: slategray 2px solid;
+}
+.lugar {
+    border: 1px solid slategray;
+    background-color: #C6C9CE;
+    border-color: black;
+    border-radius: 35px;
+    margin-bottom: 20px;
+    padding: 10px;
+    justify-content: center;;
 }
