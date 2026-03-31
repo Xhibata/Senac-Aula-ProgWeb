@@ -1,0 +1,15 @@
+body {
+    background: url(imagens/dried-leaves-gray-blank-background.jpg);
+    font-family: sans-serif, monospace;
+}
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 100px;
+}
+p {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
